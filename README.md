@@ -1,6 +1,6 @@
 # eth-data-pipeline
 
-A data pipeline for enriching and summarizing ethereum token transfer data one day at a time.
+A data pipeline for enriching and summarizing ethereum token transfer data one day at a time powered by Infura API
 
 1. Summatizing data from the public BigQuery table `bigquery-public-data.crypto_ethereum.token_transfers`.
   - Count the number of transactions for each `token_address` and save top 100
